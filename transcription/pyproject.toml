@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "transcription"
+version = "0.1.0"
+description = "Fetches 'Auksinis protas' video, extracts audio and transcribes it."
+authors = ["Donatas Remeika <donatas.remeika@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
