@@ -7,7 +7,7 @@ import requests
 
 
 parser = argparse.ArgumentParser(
-    description='Transcribe "Auksinis protas" episode')
+    description='Download "Auksinis protas" episode')
 parser.add_argument(
     'url', metavar='url', type=str,
     help='URL of the episode on https://www.lrt.lt/')
