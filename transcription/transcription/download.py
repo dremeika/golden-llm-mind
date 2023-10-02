@@ -13,7 +13,7 @@ parser.add_argument(
     help='URL of the episode on https://www.lrt.lt/')
 
 
-def main():
+def main() -> None:
     if shutil.which('cvlc') is None:
         print("VLC is not installed. Exiting...")
         exit(1)
