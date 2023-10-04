@@ -1,4 +1,4 @@
-https://www.lrt.lt/mediateka/irasas/2000277109/auksinis-protas-kuris-vaisius-laikomas-indijos-nacionaliniu-vaisiumi
+URL: https://www.lrt.lt/mediateka/irasas/2000277109/auksinis-protas-kuris-vaisius-laikomas-indijos-nacionaliniu-vaisiumi
 
 I turas
 
@@ -26,7 +26,7 @@ b) Mangas
 c) Papaja
 A: Mangas
 
-K: Kuris iš šių asmenų nebuvo pavaizduoatas ant Prancūzijos Frankų banknotų?
+K: Kuris iš šių asmenų nebuvo pavaizduotas ant Prancūzijos Frankų banknotų?
 a) Klodas Debiusi
 b) Gustavas Eifelis
 c) Žiulis Vernas
@@ -51,15 +51,16 @@ c) muzikos instrumentas
 A: muzikos instrumentas
 
 II turas
+
 K: Gyvūnai
-1) Tam tikras kelias kalnuose.
+1) Tam tikras kelias kalnuose
 2) Uroboras
 3) Džingadžkukas
 4) Paprastoji angis
 A: gyvatė
 
 K: Žinomas žmogus
-1) Jo pavardėje yra Lietuvos valstybės simbolis.
+1) Jo pavardėje yra Lietuvos valstybės simbolis
 2) Sportininkas
 
 A: Kazys Maksvytis
@@ -68,7 +69,7 @@ K: Objektas
 1) Tai ketvirtas pagal plotą UNESCO pasaulio paveldo Objektas
 2) Jis nėra vientisas
 3) Šis objektas yra matomas iš kosmoso
-4) Tai gamtos objektas prie Aus...
+4) Tai gamtos objektas prie Australijos
 A: Didysis barjerinis rifas
 
 K: Vardas
@@ -94,12 +95,12 @@ A: Lombardas
 K: Valstybė
 1) Ši valstybė yra viena iš trijų pasaulyje.
 2) Europoje
-3) Net trys jos vadovai buvo paskalbti "Time" metų žmogumi.
+3) Net trys jos vadovai buvo paskelbti "Time" metų žmogumi.
 A: Vatikanas
 
 III turas
 
-K: Ar šiuo metu tas žmogus yra gavęs Sidabrinę gervę už pagrindinį vaidmenį? Atsakymas Taip arba Ne
+K: Ar šiuo metu tas žmogus yra gavęs Sidabrinę gervę už pagrindinį vaidmenį? [TAIP, NE]
 1) Inga Jankauskaitė - NE
 2) Marius Repšys - TAIP
 3) Ramūnas Cicėnas - NE
@@ -121,7 +122,7 @@ K: Ar šiuo metu tas žmogus yra gavęs Sidabrinę gervę už pagrindinį vaidme
 19) Dainius Gavenonis - TAIP
 20) Martynas Nedzinskas - NE
 
-K: Ar šis Lietuvos politikas yra kandidatavęs į prezidento postą?
+K: Ar šis Lietuvos politikas yra kandidatavęs į prezidento postą? [TAIP, NE]
 1) Gediminas Vagnorius - NE
 2) Arvydas Juozaitis - TAIP
 3) Mindaugas Puidokas - TAIP
@@ -143,7 +144,7 @@ K: Ar šis Lietuvos politikas yra kandidatavęs į prezidento postą?
 19) Česlovas Juršėnas - TAIP
 20) Bronislovas Lubys - NE
 
-K: Ar deivė yra graikų mitologijos ar romėnų?
+K: Ar deivė yra graikų mitologijos ar romėnų? [graikų, romėnų]
 Hestija - graikų
 Minerva - romėnų
 Parkos - romėnų
