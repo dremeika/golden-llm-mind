@@ -96,3 +96,69 @@ K: Geometrinė figūra
 A: Kvadratas
 
 III turas
+
+K: Ar šis paveikslas eksponuojamas Europos ar JAV muziejuje? [Europa, JAV]
+1) Vudas, "Amerikietiška gotika" - JAV
+2) Goja, "Gegužės trečioji" - Europa
+3) Van Gogas, "Žvaigždėta naktis" - JAV
+4) Hoperis, "Nakties vanagai" - JAV
+5) Bošas, "Žemiškųjų malonumų sodas" - Europa
+6) Tintoretas, "Paskutinė vakarienė" - Europa
+7) Regelis, "Medžiotojai sniege" - Europa
+8) Davidas, "Sokrato mirtis" - JAV
+9) El Grekas, "Toledo vaizdas" - JAV
+10) Pikaso, "Gernika" - Europa
+11) Monė, "Šarka" - Europa
+12) Gogenas, "Taičio, landšaftas" - JAV
+13) Munkas, "Klyksmas" - Europa
+14) Terneris, "Kovojantis temerairas" - Europa
+15) Dali, "Atminties pastovumas" - JAV
+16) Polokas, "Pirmas: 31 numeris" - JAV
+17) Botičelis, "Veneros gimimas" - Europa
+18) Kalo, "Autoportretas su beždžione" - JAV
+19) Varholas, "Kempbelo sriubos skardinės" - JAV
+20) Konsteblis, "Šieno vežimas" - Europa
+
+K: Ar Sacharos dykuma įeina į tos valstybės teritoriją? [TAIP, NE]
+1) Centrinė Afrkos Respublika - NE
+2) Egiptas - TAIP
+3) Čadas - TAIP
+4) Kamerūnas - NE
+5) Mauritanija - TAIP
+6) Nigerija - NE
+7) Alžyras - TAIP
+8) Dramblio Kaulo Krantas - NE
+9) Libija - TAIP
+10) Burkina Fasas - NE
+11) Senegalas - NE
+12) Tunisas - TAIP
+13) Gambija - NE
+14) Gana - NE
+15) Malis - TAIP
+16) Marokas - TAIP
+17) Etiopija - NE
+18) Nigeris - NE
+19) Eritrėja - NE
+20) Sudanas - TAIP
+
+K: Ar gyvūnas yra išnykęs ar dar gyvena? [Gyvena, Išnykęs]
+1) Tauras - Išnykęs
+2) Kazuaras - Gyvena
+3) Vilpišys - Gyvena
+4) Smilodonas - Išnykęs
+5) Tasmanijos velnias - Gyvena
+6) Kvaga - Išnykęs
+7) Dronatas - Išnykęs
+8) Tarponas - Gyvena
+9) Kana - Gyvena
+10) Moa - Išnykęs
+11) Oriksas - Gyvena
+12) Onagras - Gyvena
+13) Sterblinis vilkas - Išnykęs
+14) Dūminis leopardas - Gyvena
+15) Epiornis - Išnykęs
+16) Moho - Išnykęs
+17) Latimerija - Gyvena
+18) Tuatara - Gyvena
+19) Tarpanas - Išnykęs
+20) Kalnų gorila - Gyvena
