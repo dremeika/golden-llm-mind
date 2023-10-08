@@ -162,3 +162,33 @@ K: Ar gyvūnas yra išnykęs ar dar gyvena? [Gyvena, Išnykęs]
 18) Tuatara - Gyvena
 19) Tarpanas - Išnykęs
 20) Kalnų gorila - Gyvena
+
+IV turas
+
+K: Kokios kitos salos pavadinimą galima sudaryti iš žodžio Kipras raidžių?
+A: Kapris
+
+K: Pirmasis už Lietuvos nepriklausomybę žuvęs Lietuvos kariuomenės karininkas Antanas Juozapavičius, aktorė Ingrid Bergman, Havajų karalius Kamehameha V gimtadienius minėjo skirtingomis dienomis. Kas šiuos žmones sieja bendrai su jų gimtadieniais?
+A: Mirė savo gimimo dieną
+
+K: Ši stauridinių šeimos žuvis Nucrates Ductor sutinkama beveik visada su rykliais, nes minta jų maisto likučiais. Pavadinimą ji gavo dėl to, kad rykliui, artėjant prie grobio ji plaukia pirma jo, tarsi rodydama kelią. Kokios profesijos vardu ji vadinama?
+A: Locmanas
+
+K: Šioje savivaldybėje iki 2024 m. planuojama rekonstruoti pėsčiųjų ir dviračių taką, kurio pirmasis ruožas buvo įrengtas dar 1978 metais. Tokio pėsčiųjų ir dviračių tako ilgis į vienas pusę yra net 52 km. ir jis sujungia net 5 gyvenvietes. Tako atnaujinimui planuojama skirti 5,8 mln. EUR, iš kurių dalis bus finansuojama ES struktūrinių fondų lėšomis. Kokia tai savivaldybė?
+A: Neringos
+
+K: 1789 m. birželio 4 dieną Sidnėjuje įvyko pirmojo spektaklio Australijoje premjera. Komiška drama vadinosi "Karininkas verbuotojas". Prisiminę Australijos istoriją pasakykite, kas bendro tarp šio spektaklio ir klasikinio japonų teatro kabuki?
+A: Visas roles atliko vyrai
+
+K: Niekada nebūna dviejų vienodų snaigių, taip ar ne?
+A: Ne
+
+K: Po 2018 m. vykusio visuomenės balsavimo JK monetų kalykla išleido 26-ias dešimties pensų monetas - po vieną monetą kiekvienai abėcėlės raidei. Tik ant vienos monetos, kurios raidė atitinka B, buvo įrašyti skaičiai. Kokie?
+A: 007
+
+K: Viena transporto kompanija deklaruoja už mažesnę kainą pervežanti krovinius, kurių matmenys neviršija 1 m x 1 m x 1 m. Kaip galima su šia kompanija transportuoti 170 cm ilgio slalomo slidžių komplektą?
+A: Tokio ilgio slidės telpa pagal įstrižainę nuo priešingų kampų
+
+K: Ką bendra žodis kelnės turi indoeuropiečių kalbose?
+A: Neturi vienaskaitos
+
