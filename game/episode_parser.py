@@ -19,7 +19,7 @@ def parse_round1(text: str) -> list[R1Question]:
         raise ValueError("Round 1 not found")
     round1_text = round1_match.group(1)
 
-    block_pattern = r"(K: .+?A: .+?)\n\n"
+    block_pattern = r"(K: .+?A: .+?)\n"
     block_matches = re.findall(block_pattern, round1_text, re.DOTALL)
 
     result = []
@@ -42,7 +42,22 @@ def parse_round2(text: str) -> list[R2Question]:
     if round2_match is None:
         raise ValueError("Round 2 not found")
     round2_text = round2_match.group(1)
-    return []
+
+    block_pattern = r"(K: .+?A: .+?)\n"
+    block_matches = re.findall(block_pattern, round2_text, re.DOTALL)
+
+    result = []
+    for block in block_matches:
+        question_pattern = r"K:\s*(.+?)\n"
+        hints_pattern = r"\d\)\s*(.+?)\n"
+        answer_pattern = r"A:\s*(.+?)$"
+
+        question = re.search(question_pattern, block).group(1)
+        hints = re.findall(hints_pattern, block)
+        answer = re.search(answer_pattern, block).group(1)
+
+        result.append(R2Question(question, hints, answer))
+    return result
 
 
 def parse_round3(text: str) -> list[R3Question]:
@@ -51,7 +66,21 @@ def parse_round3(text: str) -> list[R3Question]:
     if round3_match is None:
         raise ValueError("Round 3 not found")
     round3_text = round3_match.group(1)
-    return []
+
+    block_pattern = r"(K: .+?20\)[^\n]+?)\n"
+    block_matches = re.findall(block_pattern, round3_text, re.DOTALL)
+
+    result = []
+    for block in block_matches:
+        question_pattern = r"K:\s*(.+?)\n"
+        answers_pattern = r"\d\d?\):\s*(.+?)$"
+
+        question = re.search(question_pattern, block).group(1)
+        choices = []
+        answers = []
+
+        result.append(R3Question(question, choices, answers))
+    return result
 
 
 def parse_round4(text: str) -> list[R4Question]:
