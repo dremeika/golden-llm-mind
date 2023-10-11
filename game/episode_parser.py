@@ -72,12 +72,14 @@ def parse_round3(text: str) -> list[R3Question]:
 
     result = []
     for block in block_matches:
-        question_pattern = r"K:\s*(.+?)\n"
-        answers_pattern = r"\d\d?\):\s*(.+?)$"
+        question_and_choices_pattern = r"K:\s*(.+?)\s*\[(.+?)\]\n"
+        answers_pattern = r"\d+\)\s*(.+?)\s*-\s*(.+?)\n"
 
-        question = re.search(question_pattern, block).group(1)
-        choices = []
-        answers = []
+        qc_match = re.search(question_and_choices_pattern, block)
+        question = qc_match.group(1)
+        choices = [c.strip() for c in qc_match.group(2).split(', ')]
+        answer_matches = re.findall(answers_pattern, block, re.MULTILINE)
+        answers = [(m[0].strip(), m[1].strip()) for m in answer_matches]
 
         result.append(R3Question(question, choices, answers))
     return result
