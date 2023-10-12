@@ -91,4 +91,18 @@ def parse_round4(text: str) -> list[R4Question]:
     if round4_match is None:
         raise ValueError("Round 4 not found")
     round4_text = round4_match.group(1)
-    return []
+
+    block_pattern = r"(K:\s*.+?\nA:\s*.+?)\n"
+    block_matches = re.findall(block_pattern, round4_text, re.DOTALL)
+
+    result = []
+    for block in block_matches:
+
+        question_pattern = r"K:\s*(.+?)\n"
+        answer_pattern = r"A:\s*(.+?)$"
+
+        question = re.search(question_pattern, block).group(1)
+        answer = re.search(answer_pattern, block).group(1)
+
+        result.append(R4Question(question, answer))
+    return result
