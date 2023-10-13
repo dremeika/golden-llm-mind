@@ -5,6 +5,9 @@ class R1Question:
         self.options = options
         self.answer = answer
 
+    def __str__(self) -> str:
+        return f"Q: {self.question}\nO: {self.options}\nA: {self.answer}"
+
 
 class R2Question:
 
@@ -12,6 +15,9 @@ class R2Question:
         self.question = question
         self.answer = answer
         self.hints = hints
+
+    def __str__(self) -> str:
+        return f"Q: {self.question}\nH: {self.hints}\nA: {self.answer}"
 
 
 class R3Question:
@@ -21,9 +27,15 @@ class R3Question:
         self.choices = choices
         self.answers = answers
 
+    def __str__(self) -> str:
+        return f"Q: {self.question}\nC: {self.choices}\nA: {self.answers}"
+
 
 class R4Question:
 
     def __init__(self, question: str, answer: str) -> None:
         self.question = question
         self.answer = answer
+
+    def __str__(self) -> str:
+        return f"Q: {self.question}\nA: {self.answer}"
