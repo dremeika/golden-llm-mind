@@ -1,6 +1,6 @@
 
 import re
-from model import R1Question, R2Question, R3Question, R4Question
+from model import Episode, R1Question, R2Question, R3Question, R4Question
 
 
 def parse_url(text: str) -> str:
@@ -107,3 +107,17 @@ def parse_round4(text: str) -> list[R4Question]:
 
         result.append(R4Question(question, answer))
     return result
+
+
+def parse_episode(episode_file: str) -> Episode:
+
+    with open(episode_file, 'r') as f:
+        text = f.read()
+
+    url = parse_url(text)
+    round1 = parse_round1(text)
+    round2 = parse_round2(text)
+    round3 = parse_round3(text)
+    round4 = parse_round4(text)
+
+    return Episode(url, round1, round2, round3, round4)
