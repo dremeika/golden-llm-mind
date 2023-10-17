@@ -14,7 +14,7 @@ def validate(episode_file: str) -> None:
     print(f"Validating episode file '{episode_file}'")
 
     episode = parse_episode(episode_file)
-    
+
     print(f"URL: {episode.url}")
 
     round1_questions = episode.round1
@@ -32,7 +32,8 @@ def validate(episode_file: str) -> None:
     round3_questions = episode.round3
     print(f"Round 3 questions: {len(round3_questions)}")
     for question in round3_questions:
-        invalid_choices = [a[1] for a in question.answers if a[1] not in question.choices]
+        invalid_choices = [a[1]
+                           for a in question.answers if a[1] not in question.choices]
         if (not question.question or len(question.choices) != 2 or len(question.answers) != 20 or invalid_choices):
             print(f"Invalid question: {question}")
 

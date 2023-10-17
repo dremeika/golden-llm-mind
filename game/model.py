@@ -66,5 +66,5 @@ class Episode:
 class Player(ABC):
 
     @abstractmethod
-    def play(R1Question) -> R1Answer:
+    def play_round1(self, question: R1Question) -> R1Answer:
         pass
