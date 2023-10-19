@@ -39,7 +39,22 @@ def main(episode_file: str, round: int, llm: str) -> None:
             print(f"LLM answer: {llm_answer.answer}. Correct: {correct}.")
             correct_answers += 1 if correct else 0
         print(f"Correct answers: {correct_answers}/{len(episode.round1)}")
-
+    elif round == 2:
+        score = 0
+        for question in episode.round2:
+            print(f"Question: {question.question}")
+            print(f"Expected answer: {question.answer}")
+            used_hints = []
+            for hint in question.hints:
+                used_hints.append(hint)
+                print(f"Adding Hint: {hint}")
+                llm_answer = player.play_round2(question, used_hints)
+                correct = llm_answer.answer.lower() == question.answer.lower()
+                print(f"Expected answer: {question.answer} LLM answer: {llm_answer.answer} with {len(used_hints)}. Correct: {correct}.")
+                if correct:
+                    score += (5 - (len(used_hints)))
+                    break
+        print(f"Episode score: {score}")
 
 if __name__ == '__main__':
     args = parser.parse_args()
