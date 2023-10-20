@@ -29,3 +29,44 @@ Expected answer: Jėzaus kojų
 LLM answer: Atsakymas: Judo dešinės rankos. Correct: False.
 Correct answers: 3/7
 ----------------------------------------
+Playing episode file '../shows/2023-09-22.txt' round '2' with LLM 'gpt-3.5'
+Question: Gyvūnas
+Expected answer: Krokodilas
+Expected answer: 'Krokodilas' LLM answer: 'Mano draugelis yra gyvūnas, kuris yra toks paukštis kaip Egiptinis bėgūnėlis.' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Krokodilas' LLM answer: 'Mano atsakymas yra "krokodilas".' with 2 hints. Correct: False. Score: 3.
+Question: Deivė
+Expected answer: Kali
+Expected answer: 'Kali' LLM answer: 'Mano atsakymas yra "Girė".' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Kali' LLM answer: 'Mano atsakymas yra "Mergelė".' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Kali' LLM answer: 'Atsakymas yra Kali.' with 3 hints. Correct: False. Score: 2.
+Question: Gamtos objektas
+Expected answer: Kopa
+Expected answer: 'Kopa' LLM answer: 'Aš manau, kad atsakymas yra Andų kalnų viršūnė, kurios aukštis yra 1176 m.' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Kopa' LLM answer: 'Aš manau, kad atsakymas yra Andų kalnai.' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Kopa' LLM answer: 'Atsakymas: Aš manau, kad užuominos rodo, jog tu esi protmūšio dalyvis, kurio užduotis yra pateikti atsakymą apie aukščiausią gamtos objektą. Remiantis užuominomis, aukščiausias gamtos objektas, kurio santykinis aukštis yra 1176 m, yra Peru. Taip pat, užuominos paminėjo, kad gamtos objektai gali turėti įvairias formas, tokias kaip žvaigždinė, skersinė, kupoliška, parabolinė ir kitos. Tačiau, užuominos taip pat paminėjo Frenko Herberto romaną, kuris gali būti nesusijęs su gamtos objektais.' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Kopa' LLM answer: 'Atsakymas yra Andų kalnai.' with 4 hints. Correct: False. Score: 0.
+Question: Žaidimas
+Expected answer: popierius, žirklės, akmuo
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Žaidimas turi 3 elementus - vieną gamtinį ir du žmogaus pagamintus.
+
+Atsakymas: Tai gali būti futbolas, kur žaidžiama su futbolo kamuoliu (gamtinis elementas) ir dviem futbolo vartais (žmogaus pagaminti elementai).' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Žaidimas, kuriame yra gamtinis elementas ir du žmogaus pagaminti elementai, o vienas iš šių elementų seniau buvo ir svorio vienetas, yra šachmatai.' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Atsakymas yra šachmatai. Gamtinis elementas yra šachmatų lenta, o žmogaus pagaminti elementai yra šachmatų figūros ir laikrodis. Seniau vienas iš šachmatų elementų buvo svorio vienetas - karalius. Simbolių žodyne apie kitą elementą sakoma, kad tai yra tikslumo ir pokyčio simbolis, kuris simbolizuoja ir gimimą, ir mirtį - tai yra šachmatų karalienė.' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Atsakymas yra popierius.' with 4 hints. Correct: False. Score: 0.
+Question: Sala
+Expected answer: Zelandija
+Expected answer: 'Zelandija' LLM answer: 'Mano atsakymas yra "Madagaskaras".' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Ši sala yra didžiausia sala Baltijos jūroje.' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Ši sala yra Gotlandija.' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Šis protmūšio uždavinys yra apie Lietuvą. Atsakymas yra Kuršių sala.' with 4 hints. Correct: False. Score: 0.
+Question: Augalas
+Expected answer: Pomidoras
+Expected answer: 'Pomidoras' LLM answer: 'Mano atsakymas yra "ramunė"' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Pomidoras' LLM answer: 'Atsakymas yra ananasas.' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Pomidoras' LLM answer: 'Atsakymas yra "ramunėlis".' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Pomidoras' LLM answer: 'Atsakymas: Tomatas' with 4 hints. Correct: False. Score: 0.
+Question: Geometrinė figūra
+Expected answer: Kvadratas
+Expected answer: 'Kvadratas' LLM answer: 'Kvadratas' with 1 hints. Correct: True. Score: 4.
+Episode score: 9
+----------------------------------------

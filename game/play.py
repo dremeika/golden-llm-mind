@@ -47,12 +47,12 @@ def main(episode_file: str, round: int, llm: str) -> None:
             used_hints = []
             for hint in question.hints:
                 used_hints.append(hint)
-                print(f"Adding Hint: {hint}")
                 llm_answer = player.play_round2(question, used_hints)
                 correct = llm_answer.answer.lower() == question.answer.lower()
-                print(f"Expected answer: {question.answer} LLM answer: {llm_answer.answer} with {len(used_hints)}. Correct: {correct}.")
+                question_score = 5 - (len(used_hints)) if correct else 0
+                print(f"Expected answer: '{question.answer}' LLM answer: '{llm_answer.answer}' with {len(used_hints)} hints. Correct: {correct}. Score: {question_score}.")
                 if correct:
-                    score += (5 - (len(used_hints)))
+                    score += question_score
                     break
         print(f"Episode score: {score}")
 

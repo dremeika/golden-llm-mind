@@ -49,7 +49,7 @@ II turas
 K: Gyvūnas
 1) Jo "draugelis" yra toks paukštis Egiptinis bėgūnėlis
 2) 1933 m. prancūzų tenisininko, 7 kartus laimėjusio didžiojo kirčio turnyrus, įkurta aprangos ir aksesuarų firma
-3) Eltono Džono ir Bernio tTopino 1972-jų metų daina
+3) Eltono Džono ir Bernio Topino 1972-jų metų daina
 4) Labai apsimestinis atgailavimas, verkiant dirbtinomis ašaromis
 A: Krokodilas
 
@@ -60,7 +60,7 @@ K: Deivė
 4) Šarminis metalas be paskutinės raidės
 A: Kali
 
-K: Gamtos ojektas
+K: Gamtos objektas
 1) Aukščiausias toks objektas, kurio santykinis aukštis yra 1176 m, yra Peru
 2) Tai gamtos sukurti objektai, kurių formos gali būti: žvaigždinė, skersinė, kupoliška, parabolinė ir kitos
 3) Frenko Herberto romanas

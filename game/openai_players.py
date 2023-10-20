@@ -54,3 +54,10 @@ class GPT4Player(Player):
             .format_prompt(question=question.question, options=", ".join(question.options))
             .to_messages())
         return R1Answer(question=question, answer=prediction.content)
+
+    def play_round2(self, question: R2Question, hints: list[str]) -> R2Answer:
+        prediction = self.chat(
+            q2_prompt_template
+            .format_prompt(question=question.question, hints="\n".join(hints))
+            .to_messages())
+        return R2Answer(question=question, answer=prediction.content)

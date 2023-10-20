@@ -29,3 +29,42 @@ Expected answer: Jėzaus kojų
 LLM answer: Jėzaus kojų. Correct: True.
 Correct answers: 6/7
 ----------------------------------------
+Playing episode file '../shows/2023-09-22.txt' round '2' with LLM 'gpt-4'
+Question: Gyvūnas
+Expected answer: Krokodilas
+Expected answer: 'Krokodilas' LLM answer: 'Krokodilas' with 1 hints. Correct: True. Score: 4.
+Question: Deivė
+Expected answer: Kali
+Expected answer: 'Kali' LLM answer: 'Deivė' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Kali' LLM answer: 'Lūpa' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Kali' LLM answer: 'Kali' with 3 hints. Correct: True. Score: 2.
+Question: Gamtos objektas
+Expected answer: Kopa
+Expected answer: 'Kopa' LLM answer: 'Andes kalnai' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Kopa' LLM answer: 'Geizeris' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Kopa' LLM answer: 'Dykdobraižiai' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Kopa' LLM answer: 'Kopa' with 4 hints. Correct: True. Score: 1.
+Question: Žaidimas
+Expected answer: popierius, žirklės, akmuo
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Petankė' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Petankė' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Petankė' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Stalo tenisas (elementai: kamuoliukas, raketė, stalas)' with 4 hints. Correct: False. Score: 0.
+Question: Sala
+Expected answer: Zelandija
+Expected answer: 'Zelandija' LLM answer: 'Baltijos jūroje tai yra Gotlandija, Viduržemio jūroje - Sicilija, Karibų jūroje - Kuba, Arkties jūroje - Grenlandija. Tačiau, kadangi nėra nurodyta konkreti jūra, atsakymo negaliu pateikti.' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Gotlandija' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Kopenhagena' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Danija' with 4 hints. Correct: False. Score: 0.
+Question: Augalas
+Expected answer: Pomidoras
+Expected answer: 'Pomidoras' LLM answer: 'Valerijonas' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Pomidoras' LLM answer: 'Avokadas' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Pomidoras' LLM answer: 'Pomidoras' with 3 hints. Correct: True. Score: 2.
+Question: Geometrinė figūra
+Expected answer: Kvadratas
+Expected answer: 'Kvadratas' LLM answer: 'Trikampis' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Kvadratas' LLM answer: 'Triampis' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Kvadratas' LLM answer: 'Kvadratas' with 3 hints. Correct: True. Score: 2.
+Episode score: 11
+----------------------------------------
