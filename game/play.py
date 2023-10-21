@@ -50,13 +50,28 @@ def main(episode_file: str, round: int, llm: str) -> None:
                 llm_answer = player.play_round2(question, used_hints)
                 correct = llm_answer.answer.lower() == question.answer.lower()
                 question_score = 5 - (len(used_hints)) if correct else 0
-                print(f"Expected answer: '{question.answer}' LLM answer: '{llm_answer.answer}' with {len(used_hints)} hints. Correct: {correct}. Score: {question_score}.")
+                print(
+                    f"Expected answer: '{question.answer}' LLM answer: '{llm_answer.answer}' with {len(used_hints)} hints. "
+                    f"Correct: {correct}. Score: {question_score}.")
                 if correct:
                     score += question_score
                     break
         print(f"Episode score: {score}")
+    elif round == 3:
+        score = 0
+        for question in episode.round3:
+            print(f"Question: {question.question}")
+            print(f"Choices: {', '.join(question.choices)}")
+            for answer in question.answers:
+                query, correct_answer = answer
+                llm_answer = player.play_round3(question, query)
+                correct = llm_answer.answer.lower() == correct_answer.lower()
+                score += 1 if correct else 0
+                print(f"Query: '{query}' Expected answer: '{correct_answer}' LLM answer: '{llm_answer.answer}' "
+                      f"Correct: {correct}. Current score: {score}")
+
+
 
 if __name__ == '__main__':
     args = parser.parse_args()
     main(args.episode, args.round, args.llm)
-

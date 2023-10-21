@@ -70,3 +70,71 @@ Expected answer: Kvadratas
 Expected answer: 'Kvadratas' LLM answer: 'Kvadratas' with 1 hints. Correct: True. Score: 4.
 Episode score: 9
 ----------------------------------------
+Playing episode file '../shows/2023-09-22.txt' round '3' with LLM 'gpt-3.5'
+Question: Ar šis paveikslas eksponuojamas Europos ar JAV muziejuje?
+Choices: Europa, JAV
+Query: 'Vudas, "Amerikietiška gotika"' Expected answer: 'JAV' LLM answer: 'JAV' Correct: True. Current score: 1
+Query: 'Goja, "Gegužės trečioji"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 2
+Query: 'Van Gogas, "Žvaigždėta naktis"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 2
+Query: 'Hoperis, "Nakties vanagai"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 2
+Query: 'Bošas, "Žemiškųjų malonumų sodas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 3
+Query: 'Tintoretas, "Paskutinė vakarienė"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 4
+Query: 'Regelis, "Medžiotojai sniege"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 5
+Query: 'Davidas, "Sokrato mirtis"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 5
+Query: 'El Grekas, "Toledo vaizdas"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 5
+Query: 'Pikaso, "Gernika"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 6
+Query: 'Monė, "Šarka"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 7
+Query: 'Gogenas, "Taičio, landšaftas"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 7
+Query: 'Munkas, "Klyksmas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 8
+Query: 'Terneris, "Kovojantis temerairas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 9
+Query: 'Dali, "Atminties pastovumas"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 9
+Query: 'Polokas, "Pirmas: 31 numeris"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 9
+Query: 'Botičelis, "Veneros gimimas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 10
+Query: 'Kalo, "Autoportretas su beždžione"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 10
+Query: 'Varholas, "Kempbelo sriubos skardinės"' Expected answer: 'JAV' LLM answer: 'JAV' Correct: True. Current score: 11
+Query: 'Konsteblis, "Šieno vežimas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 12
+Question: Ar Sacharos dykuma įeina į tos valstybės teritoriją?
+Choices: TAIP, NE
+Query: 'Centrinė Afrkos Respublika' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 13
+Query: 'Egiptas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 14
+Query: 'Čadas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 15
+Query: 'Kamerūnas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 16
+Query: 'Mauritanija' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 17
+Query: 'Nigerija' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 18
+Query: 'Alžyras' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 19
+Query: 'Dramblio Kaulo Krantas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 20
+Query: 'Libija' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 21
+Query: 'Burkina Fasas' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 21
+Query: 'Senegalas' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 21
+Query: 'Tunisas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 22
+Query: 'Gambija' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 23
+Query: 'Gana' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 24
+Query: 'Malis' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 25
+Query: 'Marokas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 26
+Query: 'Etiopija' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 27
+Query: 'Nigeris' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 27
+Query: 'Eritrėja' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 28
+Query: 'Sudanas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 29
+Question: Ar gyvūnas yra išnykęs ar dar gyvena?
+Choices: Gyvena, Išnykęs
+Query: 'Tauras' Expected answer: 'Išnykęs' LLM answer: 'Gyvena' Correct: False. Current score: 29
+Query: 'Kazuaras' Expected answer: 'Gyvena' LLM answer: 'Išnykęs' Correct: False. Current score: 29
+Query: 'Vilpišys' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 30
+Query: 'Smilodonas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 31
+Query: 'Tasmanijos velnias' Expected answer: 'Gyvena' LLM answer: 'Išnykęs' Correct: False. Current score: 31
+Query: 'Kvaga' Expected answer: 'Išnykęs' LLM answer: 'Gyvena' Correct: False. Current score: 31
+Query: 'Dronatas' Expected answer: 'Išnykęs' LLM answer: 'Gyvena' Correct: False. Current score: 31
+Query: 'Tarponas' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 32
+Query: 'Kana' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 33
+Query: 'Moa' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 34
+Query: 'Oriksas' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 35
+Query: 'Onagras' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 36
+Query: 'Sterblinis vilkas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 37
+Query: 'Dūminis leopardas' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 38
+Query: 'Epiornis' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 39
+Query: 'Moho' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 40
+Query: 'Latimerija' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 41
+Query: 'Tuatara' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 42
+Query: 'Tarpanas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 43
+Query: 'Kalnų gorila' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 44
+----------------------------------------

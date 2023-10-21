@@ -29,11 +29,13 @@ class R2Question:
     def __str__(self) -> str:
         return f"Q: {self.question}\nH: {self.hints}\nA: {self.answer}"
 
+
 class R2Answer:
 
-        def __init__(self, question: R2Question, answer: str) -> None:
-            self.question = question
-            self.answer = answer
+    def __init__(self, question: R2Question, answer: str) -> None:
+        self.question = question
+        self.answer = answer
+
 
 class R3Question:
 
@@ -44,6 +46,13 @@ class R3Question:
 
     def __str__(self) -> str:
         return f"Q: {self.question}\nC: {self.choices}\nA: {self.answers}"
+
+
+class R3Answer:
+
+    def __init__(self, question: R3Question, answer: str) -> None:
+        self.question = question
+        self.answer = answer
 
 
 class R4Question:
@@ -76,4 +85,8 @@ class Player(ABC):
 
     @abstractmethod
     def play_round2(self, question: R2Question, used_hints: list[str]) -> R2Answer:
+        pass
+
+    @abstractmethod
+    def play_round3(self, question: R3Question, query: str) -> R3Answer:
         pass

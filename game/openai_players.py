@@ -3,7 +3,7 @@ from langchain.prompts.chat import (
     ChatPromptTemplate,
 )
 
-from model import Player, R1Answer, R1Question, R2Question, R2Answer
+from model import Player, R1Answer, R1Question, R2Question, R2Answer, R3Question, R3Answer
 
 q1_prompt_template = ChatPromptTemplate.from_messages([
     "Tu esi protmūšio dalyvis. Tavo užduotis yra atsakyti į klausimus",
@@ -14,11 +14,19 @@ q1_prompt_template = ChatPromptTemplate.from_messages([
 ])
 
 q2_prompt_template = ChatPromptTemplate.from_messages([
-    "Tu esi protmūšio dalyvis. Tavo užduotis yra pateikti atsakymą pasnaudojant užuominomis",
+    "Tu esi protmūšio dalyvis. Tavo užduotis yra pateikti atsakymą pasinaudojant užuominomis",
     """
     Tema: {question}
     Užuominos:
     {hints}
+    Atsakymas: """
+])
+
+q3_prompt_template = ChatPromptTemplate.from_messages([
+    "Tu esi protmūšio dalyvis. Tavo užduotis yra pasirinkti vieną iš dviejų atsakymų"
+    """
+    Klausimas: {question} {query}
+    Galimi atsakymai: {choices}
     Atsakymas: """
 ])
 
@@ -42,6 +50,13 @@ class GPT35Player(Player):
             .to_messages())
         return R2Answer(question=question, answer=prediction.content)
 
+    def play_round3(self, question: R3Question, query: str) -> R3Answer:
+        prediction = self.chat(
+            q3_prompt_template
+            .format_prompt(question=question.question, query=query, choices=", ".join(question.choices))
+            .to_messages())
+        return R3Answer(question=question, answer=prediction.content)
+
 
 class GPT4Player(Player):
 
@@ -61,3 +76,10 @@ class GPT4Player(Player):
             .format_prompt(question=question.question, hints="\n".join(hints))
             .to_messages())
         return R2Answer(question=question, answer=prediction.content)
+
+    def play_round3(self, question: R3Question, query: str) -> R3Answer:
+        prediction = self.chat(
+            q3_prompt_template
+            .format_prompt(question=question.question, query=query, choices=", ".join(question.choices))
+            .to_messages())
+        return R3Answer(question=question, answer=prediction.content)
