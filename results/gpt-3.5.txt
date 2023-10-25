@@ -137,4 +137,25 @@ Query: 'Latimerija' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True
 Query: 'Tuatara' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 42
 Query: 'Tarpanas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 43
 Query: 'Kalnų gorila' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 44
+Episode score: 14
 ----------------------------------------
+Playing episode file '../shows/2023-09-22.txt' round '4' with LLM 'gpt-3.5'
+Question: Kokios kitos salos pavadinimą galima sudaryti iš žodžio Kipras raidžių?
+Expected answer: 'Kapris' LLM answer: Iš žodžio Kipras raidžių galima sudaryti salos pavadinimą "Pirksa".. Correct: False.
+Question: Pirmasis už Lietuvos nepriklausomybę žuvęs Lietuvos kariuomenės karininkas Antanas Juozapavičius, aktorė Ingrid Bergman, Havajų karalius Kamehameha V gimtadienius minėjo skirtingomis dienomis. Kas šiuos žmones sieja bendrai su jų gimtadieniais?
+Expected answer: 'Mirė savo gimimo dieną' LLM answer: Visi šie žmonės gimė tą pačią dieną - rugsėjo 29-ąją.. Correct: False.
+Question: Ši stauridinių šeimos žuvis Nucrates Ductor sutinkama beveik visada su rykliais, nes minta jų maisto likučiais. Pavadinimą ji gavo dėl to, kad rykliui, artėjant prie grobio ji plaukia pirma jo, tarsi rodydama kelią. Kokios profesijos vardu ji vadinama?
+Expected answer: 'Locmanas' LLM answer: Ši stauridinių šeimos žuvis Nucrates Ductor yra vadinama "ryklio vadovu".. Correct: False.
+Question: Šioje savivaldybėje iki 2024 m. planuojama rekonstruoti pėsčiųjų ir dviračių taką, kurio pirmasis ruožas buvo įrengtas dar 1978 metais. Tokio pėsčiųjų ir dviračių tako ilgis į vienas pusę yra net 52 km. ir jis sujungia net 5 gyvenvietes. Tako atnaujinimui planuojama skirti 5,8 mln. EUR, iš kurių dalis bus finansuojama ES struktūrinių fondų lėšomis. Kokia tai savivaldybė?
+Expected answer: 'Neringos' LLM answer: Atsakymas į klausimą yra nepateiktas.. Correct: False.
+Question: 1789 m. birželio 4 dieną Sidnėjuje įvyko pirmojo spektaklio Australijoje premjera. Komiška drama vadinosi "Karininkas verbuotojas". Prisiminę Australijos istoriją pasakykite, kas bendro tarp šio spektaklio ir klasikinio japonų teatro kabuki?
+Expected answer: 'Visas roles atliko vyrai' LLM answer: Tarp "Karininko verbuotojo" spektaklio Australijoje ir klasikinio japonų teatro kabuki yra keletas panašumų. Abu šie spektakliai yra komiškos dramos, kurios dažnai pasižymi ryškiomis ir išraiškingomis kostiumų ir makiažo detalėmis. Taip pat, tiek "Karininkas verbuotojas", tiek kabuki spektakliai dažnai yra labai teatrališki ir įtraukiantys, su stipriu akcentuojamu veikėjų vaidinimu. Tačiau svarbu paminėti, kad šie spektakliai kilo skirtingose kultūrose ir turi savo unikalumą.. Correct: False.
+Question: Niekada nebūna dviejų vienodų snaigių, taip ar ne?
+Expected answer: 'Ne' LLM answer: Tai netiesa. Niekada negalime būti tikri, kad niekada nebus dviejų vienodų snaigių. Gamtoje yra daugybė veiksnių, kurie gali sukelti, kad snaigės susidarytų vienodos formos ir dydžio. Tačiau tai yra labai retas ir tikėtinas atvejis.. Correct: True.
+Question: Po 2018 m. vykusio visuomenės balsavimo JK monetų kalykla išleido 26-ias dešimties pensų monetas - po vieną monetą kiekvienai abėcėlės raidei. Tik ant vienos monetos, kurios raidė atitinka B, buvo įrašyti skaičiai. Kokie?
+Expected answer: '007' LLM answer: Ant monetos, kurios raidė atitinka B, buvo įrašyti skaičiai 2 ir 0.. Correct: False.
+Question: Viena transporto kompanija deklaruoja už mažesnę kainą pervežanti krovinius, kurių matmenys neviršija 1 m x 1 m x 1 m. Kaip galima su šia kompanija transportuoti 170 cm ilgio slalomo slidžių komplektą?
+Expected answer: 'Tokio ilgio slidės telpa pagal įstrižainę nuo priešingų kampų' LLM answer: Su šia transporto kompanija neįmanoma transportuoti 170 cm ilgio slalomo slidžių komplekto, nes jų ilgis viršija 1 m.. Correct: False.
+Question: Ką bendra žodis kelnės turi indoeuropiečių kalbose?
+Expected answer: 'Neturi vienaskaitos' LLM answer: Bendra žodis "kelnes" turi indoeuropiečių kalbose, tačiau jis gali skirtis pagal kalbos šaknis ir formą. Pavyzdžiui, lotynų kalboje žodis "braccae" reiškia kelnaites, o senovės graikų kalboje žodis "krepides" reiškia apsaugines kojines. Taigi, bendra žodžio forma gali skirtis, bet idėja apie apatinius drabužius, kurie dengia kojas, yra bendra indoeuropiečių kalbose.. Correct: False.
+Episode score: 1

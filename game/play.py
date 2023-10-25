@@ -2,7 +2,7 @@ import argparse
 
 from episode_parser import parse_episode
 from model import Player
-from openai_players import GPT35Player, GPT4Player
+from openai_players import GPTPlayer
 
 parser = argparse.ArgumentParser(
     description='Play "Auksinis protas" episode by LLM')
@@ -16,9 +16,9 @@ parser.add_argument(
 
 def resolve_player(llm: str) -> Player:
     if llm == 'gpt-3.5':
-        return GPT35Player()
+        return GPTPlayer(model_name='gpt-3.5-turbo')
     elif llm == 'gpt-4':
-        return GPT4Player()
+        return GPTPlayer(model_name='gpt-4')
     raise ValueError(f"Unknown LLM '{llm}'")
 
 
@@ -69,7 +69,15 @@ def main(episode_file: str, round: int, llm: str) -> None:
                 score += 1 if correct else 0
                 print(f"Query: '{query}' Expected answer: '{correct_answer}' LLM answer: '{llm_answer.answer}' "
                       f"Correct: {correct}. Current score: {score}")
-
+    elif round == 4:
+        score = 0
+        for question in episode.round4:
+            print(f"Question: {question.question}")
+            llm_answer = player.play_round4(question)
+            correct = llm_answer.answer.lower() == question.answer.lower()
+            score += 1 if correct else 0
+            print(f"Expected answer: '{question.answer}' LLM answer: {llm_answer.answer}. Correct: {correct}.")
+        print(f"Episode score: {score}")
 
 
 if __name__ == '__main__':

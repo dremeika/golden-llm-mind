@@ -135,4 +135,25 @@ Query: 'Latimerija' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True
 Query: 'Tuatara' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 51
 Query: 'Tarpanas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 52
 Query: 'Kalnų gorila' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 53
+Episode score: 23
 ----------------------------------------
+Playing episode file '../shows/2023-09-22.txt' round '4' with LLM 'gpt-4'
+Question: Kokios kitos salos pavadinimą galima sudaryti iš žodžio Kipras raidžių?
+Expected answer: 'Kapris' LLM answer: Parkis.. Correct: False.
+Question: Pirmasis už Lietuvos nepriklausomybę žuvęs Lietuvos kariuomenės karininkas Antanas Juozapavičius, aktorė Ingrid Bergman, Havajų karalius Kamehameha V gimtadienius minėjo skirtingomis dienomis. Kas šiuos žmones sieja bendrai su jų gimtadieniais?
+Expected answer: 'Mirė savo gimimo dieną' LLM answer: Visi jie gimė rugpjūčio 29-ąją.. Correct: False.
+Question: Ši stauridinių šeimos žuvis Nucrates Ductor sutinkama beveik visada su rykliais, nes minta jų maisto likučiais. Pavadinimą ji gavo dėl to, kad rykliui, artėjant prie grobio ji plaukia pirma jo, tarsi rodydama kelią. Kokios profesijos vardu ji vadinama?
+Expected answer: 'Locmanas' LLM answer: Ši žuvis vadinama Dirigentu.. Correct: False.
+Question: Šioje savivaldybėje iki 2024 m. planuojama rekonstruoti pėsčiųjų ir dviračių taką, kurio pirmasis ruožas buvo įrengtas dar 1978 metais. Tokio pėsčiųjų ir dviračių tako ilgis į vienas pusę yra net 52 km. ir jis sujungia net 5 gyvenvietes. Tako atnaujinimui planuojama skirti 5,8 mln. EUR, iš kurių dalis bus finansuojama ES struktūrinių fondų lėšomis. Kokia tai savivaldybė?
+Expected answer: 'Neringos' LLM answer: Atsiprašau, bet ši informacija nėra pakankama, kad galėčiau nustatyti konkrečią savivaldybę. Galite pateikti daugiau informacijos?. Correct: False.
+Question: 1789 m. birželio 4 dieną Sidnėjuje įvyko pirmojo spektaklio Australijoje premjera. Komiška drama vadinosi "Karininkas verbuotojas". Prisiminę Australijos istoriją pasakykite, kas bendro tarp šio spektaklio ir klasikinio japonų teatro kabuki?
+Expected answer: 'Visas roles atliko vyrai' LLM answer: Nors ir gali pasirodyti, kad tarp Australijos ir Japonijos teatro nėra jokio ryšio, tačiau yra vienas bendras bruožas - abu šie spektakliai buvo atliekami kalinių. "Karininkas verbuotojas" buvo atliktas Australijos kalinimo kolonijoje, o kabuki teatras pradėjo formuotis kaip pramogos forma samurajų klasės kaliniams. Taigi, abu šie spektakliai yra susiję su kalinių kultūra.. Correct: False.
+Question: Niekada nebūna dviejų vienodų snaigių, taip ar ne?
+Expected answer: 'Ne' LLM answer: Taip, teoriškai niekada nebūna dviejų identiškų snaigių dėl jų sudėtingos ir unikalios struktūros.. Correct: False.
+Question: Po 2018 m. vykusio visuomenės balsavimo JK monetų kalykla išleido 26-ias dešimties pensų monetas - po vieną monetą kiekvienai abėcėlės raidei. Tik ant vienos monetos, kurios raidė atitinka B, buvo įrašyti skaičiai. Kokie?
+Expected answer: '007' LLM answer: 10 ir 66. Tai yra skaičiai, kurie buvo įrašyti ant "B" raidės monetoje, nes jie simbolizuoja britų autobusą, kuris yra vienas iš labiausiai atpažįstamų JK simbolių. Šie skaičiai atitinka tipinį dviejų aukštų raudonąjį Londono autobusą - Routemaster, kurio modelio numeris yra 10, o maksimalus keleivių skaičius - 66.. Correct: False.
+Question: Viena transporto kompanija deklaruoja už mažesnę kainą pervežanti krovinius, kurių matmenys neviršija 1 m x 1 m x 1 m. Kaip galima su šia kompanija transportuoti 170 cm ilgio slalomo slidžių komplektą?
+Expected answer: 'Tokio ilgio slidės telpa pagal įstrižainę nuo priešingų kampų' LLM answer: Slalomo slidžių komplektą galima transportuoti pasukus jį diagonalės kryptimi. Taip slidžių ilgis telpa į 1 m x 1 m x 1 m krovinių matmenis, nes kubo diagonalė yra ilgesnė už jo kraštines. Kubo diagonalės ilgis skaičiuojamas pagal Pitagoro teoremą, kuria remiantis, kubo diagonalė būtų šaknis iš 3, arba apie 1.73 m, kas yra daugiau nei 170 cm.. Correct: True.
+Question: Ką bendra žodis kelnės turi indoeuropiečių kalbose?
+Expected answer: 'Neturi vienaskaitos' LLM answer: Žodis "kelnės" indoeuropiečių kalbose dažniausiai turi panašų reikšmę - tai drabužis, skirtas apsirengti kojoms. Pavyzdžiui, anglų kalboje "pants", vokiečių kalboje "Hosen", prancūzų kalboje "pantalons". Tačiau konkrečios šaknys ir žodžio kilmė gali skirtis skirtingose kalbose.. Correct: False.
+Episode score: 0

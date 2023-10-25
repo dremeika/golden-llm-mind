@@ -65,6 +65,13 @@ class R4Question:
         return f"Q: {self.question}\nA: {self.answer}"
 
 
+class R4Answer:
+
+    def __init__(self, question: R4Question, answer: str) -> None:
+        self.question = question
+        self.answer = answer
+
+
 class Episode:
 
     def __init__(self, url: str,
@@ -89,4 +96,8 @@ class Player(ABC):
 
     @abstractmethod
     def play_round3(self, question: R3Question, query: str) -> R3Answer:
+        pass
+
+    @abstractmethod
+    def play_round4(self, question: R4Question) -> R4Answer:
         pass
