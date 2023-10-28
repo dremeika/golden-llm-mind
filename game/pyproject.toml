@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.10"
 langchain = "^0.0.320"
 openai = "^0.28.1"
+google-cloud-aiplatform = "^1.35.0"
 
 
 [build-system]

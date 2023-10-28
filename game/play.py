@@ -1,6 +1,7 @@
 import argparse
 
 from episode_parser import parse_episode
+from google_players import VertexAIPlayer
 from model import Player
 from openai_players import GPTPlayer
 
@@ -11,7 +12,7 @@ parser.add_argument(
 parser.add_argument(
     '-r', '--round', required=True, type=int, choices=[1, 2, 3, 4], help='Round to play')
 parser.add_argument(
-    '-l', '--llm', required=True, type=str, choices=['gpt-3.5', 'gpt-4'], help='LLM to play with')
+    '-l', '--llm', required=True, type=str, choices=['gpt-3.5', 'gpt-4', 'palm'], help='LLM to play with')
 
 
 def resolve_player(llm: str) -> Player:
@@ -19,6 +20,8 @@ def resolve_player(llm: str) -> Player:
         return GPTPlayer(model_name='gpt-3.5-turbo')
     elif llm == 'gpt-4':
         return GPTPlayer(model_name='gpt-4')
+    elif llm == 'palm':
+        return VertexAIPlayer()
     raise ValueError(f"Unknown LLM '{llm}'")
 
 

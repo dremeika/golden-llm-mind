@@ -1,0 +1,31 @@
+Playing episode file '../shows/2023-09-22.txt' round '1' with LLM 'palm'
+Question: Kuris patiekalas laikomas firminiu legendiniame dar sovietmečiu bohemos pamėgtame "Neringos" restorane Vilniuje?
+Options: Frankfurto dešrelės, Kyjivo kotletas, Vienos šnicelis
+Expected answer: Kyjivo kotletas
+LLM answer: Vienos šnicelis. Correct: False.
+Question: Kurios valstybės vardu yra pavadinti išskirtinio grožio sodai Paryžiaus mieste?
+Options: Andoros, Lichtenšteino, Liuksemburgo
+Expected answer: Liuksemburgo
+LLM answer: Liuksemburgo. Correct: True.
+Question: Kuri iš šių pirmųjų JAV ponių ja tapo anksčiausiai?
+Options: Hilari, Laura, Mišelė
+Expected answer: Hilari
+LLM answer: Hilari. Correct: True.
+Question: Kiek daugiausia vienos komandos žaidėjų aikštelėje gali būti ledo ritulyje?
+Options: 6, 7, 8
+Expected answer: 6
+LLM answer: 6. Correct: True.
+Question: Kurioje skalėje vandens virimo temperatūra yra žemiausia?
+Options: Celsijaus, Farenheito, Reomiūro
+Expected answer: Reomiūro
+LLM answer: Reomiūro. Correct: True.
+Question: Kurioje Europos valstybėje susikūrė ir veikė karbonarų judėjimas?
+Options: Italijoje, Nyderlanduose, Vengrijoje
+Expected answer: Italijoje
+LLM answer: Italijoje. Correct: True.
+Question: Ko nepamatysite apžiūrinėdami Leonardo da Vinčio freską "Paskutinė vakarienė"?
+Options: Judo dešinės rankos, Jėzaus kojų, Simono barzdos
+Expected answer: Jėzaus kojų
+LLM answer: Jėzaus kojų. Correct: True.
+Correct answers: 6/7
+----------------------------------------
