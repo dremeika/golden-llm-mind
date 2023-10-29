@@ -19,9 +19,9 @@ LLMs were scored a bit differently than human players:
 
 |                                  | Date       | Round 1 | Round 2 | Round 3 | Round 4 | Total |
 |----------------------------------|------------|---------|---------|---------|---------|-------|
-| [GPT 4](results/gpt-4.txt)       | 2023-10-25 | 6       | 11      | 53      | 1       | 65    |
+| [GPT 4](results/gpt-4.txt)       | 2023-10-25 | 6       | 11      | 53      | 1       | 71    |
 | [GPT 3.5](results/gpt-3.5.txt)   | 2023-10-25 | 3       | 9       | 44      | 1       | 57    |
-| [PaLM 2](results/bison-text.txt) | 2023-10-28 | 6       |         |         |         |       |
+| [PaLM 2](results/bison-text.txt) | 2023-10-28 | 6       | 11      | 51      | 0       | 68    |
 
 ## Playing the Game
 

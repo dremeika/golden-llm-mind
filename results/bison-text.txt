@@ -29,3 +29,132 @@ Expected answer: Jėzaus kojų
 LLM answer: Jėzaus kojų. Correct: True.
 Correct answers: 6/7
 ----------------------------------------
+Playing episode file '../shows/2023-09-22.txt' round '2' with LLM 'palm'
+Question: Gyvūnas
+Expected answer: Krokodilas
+Expected answer: 'Krokodilas' LLM answer: 'Strutis' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Krokodilas' LLM answer: 'Krokodilas' with 2 hints. Correct: True. Score: 3.
+Question: Deivė
+Expected answer: Kali
+Expected answer: 'Kali' LLM answer: 'Medeina' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Kali' LLM answer: 'Lietava' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Kali' LLM answer: 'Kali' with 3 hints. Correct: True. Score: 2.
+Question: Gamtos objektas
+Expected answer: Kopa
+Expected answer: 'Kopa' LLM answer: 'kalnas' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Kopa' LLM answer: 'kalnas' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Kopa' LLM answer: 'Kopa' with 3 hints. Correct: True. Score: 2.
+Question: Žaidimas
+Expected answer: popierius, žirklės, akmuo
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Golfas' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Kėgliai' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'kauliukų žaidimas' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'popierius, žirklės, akmuo' LLM answer: 'Keno' with 4 hints. Correct: False. Score: 0.
+Question: Sala
+Expected answer: Zelandija
+Expected answer: 'Zelandija' LLM answer: 'Grenlandija' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Gotlando sala' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Bornholmas' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Zelandija' LLM answer: 'Bornholmas' with 4 hints. Correct: False. Score: 0.
+Question: Augalas
+Expected answer: Pomidoras
+Expected answer: 'Pomidoras' LLM answer: 'Vilkdalgis' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Pomidoras' LLM answer: 'Abrikosas' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Pomidoras' LLM answer: 'Abrikosas' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Pomidoras' LLM answer: 'Pomidoras' with 4 hints. Correct: True. Score: 1.
+Question: Geometrinė figūra
+Expected answer: Kvadratas
+Expected answer: 'Kvadratas' LLM answer: 'Piramidė' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Kvadratas' LLM answer: 'Kvadratas' with 2 hints. Correct: True. Score: 3.
+Episode score: 11
+----------------------------------------Playing episode file '../shows/2023-09-22.txt' round '3' with LLM 'palm'
+Question: Ar šis paveikslas eksponuojamas Europos ar JAV muziejuje?
+Choices: Europa, JAV
+Query: 'Vudas, "Amerikietiška gotika"' Expected answer: 'JAV' LLM answer: 'JAV' Correct: True. Current score: 1
+Query: 'Goja, "Gegužės trečioji"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 2
+Query: 'Van Gogas, "Žvaigždėta naktis"' Expected answer: 'JAV' LLM answer: 'JAV' Correct: True. Current score: 3
+Query: 'Hoperis, "Nakties vanagai"' Expected answer: 'JAV' LLM answer: 'JAV' Correct: True. Current score: 4
+Query: 'Bošas, "Žemiškųjų malonumų sodas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 5
+Query: 'Tintoretas, "Paskutinė vakarienė"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 6
+Query: 'Regelis, "Medžiotojai sniege"' Expected answer: 'Europa' LLM answer: 'JAV' Correct: False. Current score: 6
+Query: 'Davidas, "Sokrato mirtis"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 6
+Query: 'El Grekas, "Toledo vaizdas"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 6
+Query: 'Pikaso, "Gernika"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 7
+Query: 'Monė, "Šarka"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 8
+Query: 'Gogenas, "Taičio, landšaftas"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 8
+Query: 'Munkas, "Klyksmas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 9
+Query: 'Terneris, "Kovojantis temerairas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 10
+Query: 'Dali, "Atminties pastovumas"' Expected answer: 'JAV' LLM answer: 'JAV' Correct: True. Current score: 11
+Query: 'Polokas, "Pirmas: 31 numeris"' Expected answer: 'JAV' LLM answer: 'JAV' Correct: True. Current score: 12
+Query: 'Botičelis, "Veneros gimimas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 13
+Query: 'Kalo, "Autoportretas su beždžione"' Expected answer: 'JAV' LLM answer: 'Europa' Correct: False. Current score: 13
+Query: 'Varholas, "Kempbelo sriubos skardinės"' Expected answer: 'JAV' LLM answer: 'JAV' Correct: True. Current score: 14
+Query: 'Konsteblis, "Šieno vežimas"' Expected answer: 'Europa' LLM answer: 'Europa' Correct: True. Current score: 15
+Question: Ar Sacharos dykuma įeina į tos valstybės teritoriją?
+Choices: TAIP, NE
+Query: 'Centrinė Afrkos Respublika' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 16
+Query: 'Egiptas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 17
+Query: 'Čadas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 18
+Query: 'Kamerūnas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 19
+Query: 'Mauritanija' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 20
+Query: 'Nigerija' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 21
+Query: 'Alžyras' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 22
+Query: 'Dramblio Kaulo Krantas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 23
+Query: 'Libija' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 24
+Query: 'Burkina Fasas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 25
+Query: 'Senegalas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 26
+Query: 'Tunisas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 27
+Query: 'Gambija' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 28
+Query: 'Gana' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 29
+Query: 'Malis' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 30
+Query: 'Marokas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 31
+Query: 'Etiopija' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 32
+Query: 'Nigeris' Expected answer: 'NE' LLM answer: '' Correct: False. Current score: 32
+Query: 'Eritrėja' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 33
+Query: 'Sudanas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 34
+Question: Ar gyvūnas yra išnykęs ar dar gyvena?
+Choices: Gyvena, Išnykęs
+Query: 'Tauras' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 35
+Query: 'Kazuaras' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 36
+Query: 'Vilpišys' Expected answer: 'Gyvena' LLM answer: 'Išnykęs' Correct: False. Current score: 36
+Query: 'Smilodonas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 37
+Query: 'Tasmanijos velnias' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 38
+Query: 'Kvaga' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 39
+Query: 'Dronatas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 40
+Query: 'Tarponas' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 41
+Query: 'Kana' Expected answer: 'Gyvena' LLM answer: 'Išnykęs' Correct: False. Current score: 41
+Query: 'Moa' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 42
+Query: 'Oriksas' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 43
+Query: 'Onagras' Expected answer: 'Gyvena' LLM answer: 'Išnykęs' Correct: False. Current score: 43
+Query: 'Sterblinis vilkas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 44
+Query: 'Dūminis leopardas' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 45
+Query: 'Epiornis' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 46
+Query: 'Moho' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 47
+Query: 'Latimerija' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 48
+Query: 'Tuatara' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 49
+Query: 'Tarpanas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 50
+Query: 'Kalnų gorila' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 51
+----------------------------------------
+Playing episode file '../shows/2023-09-22.txt' round '4' with LLM 'palm'
+Question: Kokios kitos salos pavadinimą galima sudaryti iš žodžio Kipras raidžių?
+Expected answer: 'Kapris' LLM answer: Pas Kir. Correct: False.
+Question: Pirmasis už Lietuvos nepriklausomybę žuvęs Lietuvos kariuomenės karininkas Antanas Juozapavičius, aktorė Ingrid Bergman, Havajų karalius Kamehameha V gimtadienius minėjo skirtingomis dienomis. Kas šiuos žmones sieja bendrai su jų gimtadieniais?
+Expected answer: 'Mirė savo gimimo dieną' LLM answer: Visi gimę gruodžio mėnesį. Correct: False.
+Question: Ši stauridinių šeimos žuvis Nucrates Ductor sutinkama beveik visada su rykliais, nes minta jų maisto likučiais. Pavadinimą ji gavo dėl to, kad rykliui, artėjant prie grobio ji plaukia pirma jo, tarsi rodydama kelią. Kokios profesijos vardu ji vadinama?
+Expected answer: 'Locmanas' LLM answer: Lotse. Correct: False.
+Question: Šioje savivaldybėje iki 2024 m. planuojama rekonstruoti pėsčiųjų ir dviračių taką, kurio pirmasis ruožas buvo įrengtas dar 1978 metais. Tokio pėsčiųjų ir dviračių tako ilgis į vienas pusę yra net 52 km. ir jis sujungia net 5 gyvenvietes. Tako atnaujinimui planuojama skirti 5,8 mln. EUR, iš kurių dalis bus finansuojama ES struktūrinių fondų lėšomis. Kokia tai savivaldybė?
+Expected answer: 'Neringos' LLM answer: Klaipėdos rajono savivaldybė. Correct: False.
+Question: 1789 m. birželio 4 dieną Sidnėjuje įvyko pirmojo spektaklio Australijoje premjera. Komiška drama vadinosi "Karininkas verbuotojas". Prisiminę Australijos istoriją pasakykite, kas bendro tarp šio spektaklio ir klasikinio japonų teatro kabuki?
+Expected answer: 'Visas roles atliko vyrai' LLM answer: Spektaklis vyko nuteistųjų kolonijoje. Correct: False.
+Question: Niekada nebūna dviejų vienodų snaigių, taip ar ne?
+Expected answer: 'Ne' LLM answer: Taip. Correct: False.
+Question: Po 2018 m. vykusio visuomenės balsavimo JK monetų kalykla išleido 26-ias dešimties pensų monetas - po vieną monetą kiekvienai abėcėlės raidei. Tik ant vienos monetos, kurios raidė atitinka B, buvo įrašyti skaičiai. Kokie?
+Expected answer: '007' LLM answer: 2018. Correct: False.
+Question: Viena transporto kompanija deklaruoja už mažesnę kainą pervežanti krovinius, kurių matmenys neviršija 1 m x 1 m x 1 m. Kaip galima su šia kompanija transportuoti 170 cm ilgio slalomo slidžių komplektą?
+Expected answer: 'Tokio ilgio slidės telpa pagal įstrižainę nuo priešingų kampų' LLM answer: Išardžius į dvi dalis. Correct: False.
+Question: Ką bendra žodis kelnės turi indoeuropiečių kalbose?
+Expected answer: 'Neturi vienaskaitos' LLM answer: Žodis kelnės indoeuropiečių kalbose kilęs iš žodžio *kel-, reiškiančio „dengti“.. Correct: False.
+Episode score: 0
+----------------------------------------
+
+

@@ -7,6 +7,21 @@ q1_prompt = PromptTemplate.from_template("""Klausimas: {question}
 Atsakymo variantai: {options}
 Atsakymas: """)
 
+q2_prompt = PromptTemplate.from_template("""Atspėk atsakymą pasinaudojant užuominomis. Tema: {question}
+Užuominos:
+{hints}
+Atsakymas: """)
+
+q3_prompt = PromptTemplate.from_template("""Pasirink vieną iš dviejų atsakymų apie teiginį.
+Klausimas: {question} 
+Teiginys: {query}
+Galimi atsakymai: {choices}
+Atsakymas: """)
+
+q4_prompt = PromptTemplate.from_template("""Atsakyk į klausimą.
+Klausimas: {question}
+Atsakymas: """)
+
 
 class VertexAIPlayer(Player):
 
@@ -19,10 +34,16 @@ class VertexAIPlayer(Player):
         return R1Answer(question=question, answer=result.strip())
 
     def play_round2(self, question: R2Question, used_hints: list[str]) -> R2Answer:
-        pass
+        chain = q2_prompt | self.llm
+        result = chain.invoke({'question': question.question, 'hints': "\n".join(used_hints)})
+        return R2Answer(question=question, answer=result.strip())
 
     def play_round3(self, question: R3Question, query: str) -> R3Answer:
-        pass
+        chain = q3_prompt | self.llm
+        result = chain.invoke({'question': question.question, 'query': query, 'choices': "\n".join(question.choices)})
+        return R3Answer(question=question, answer=result.strip())
 
     def play_round4(self, question: R4Question) -> R4Answer:
-        pass
+        chain = q4_prompt | self.llm
+        result = chain.invoke({'question': question.question})
+        return R4Answer(question=question, answer=result.strip())
