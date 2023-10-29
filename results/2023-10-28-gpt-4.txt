@@ -1,0 +1,153 @@
+Playing episode file '../shows/2023-10-28.txt' round '1' with LLM 'gpt-4'
+Question: Kuriame mieste nuo 1897 m. rengiamas seniausias pasaulyje kasmetinis maratonas?
+Options: Bostone, Čikagoje, Niujorke
+Expected answer: Bostone
+LLM answer: Bostone. Correct: True.
+Question: Kas graikų mitologijoje atitinka romėnų dievą Saturną?
+Options: Hadas, Hefaistas, Kronas
+Expected answer: Kronas
+LLM answer: Kronas. Correct: True.
+Question: Kas bendro yra tarp šių aktorių filmuose, kuriuose jie atliko pagrindinius vaidmenis: Briusas Vilisas ir "Dvylika beždžionių", Antonijus Banderasas ir "Genijus. Picasso", Demi Mūr ir "Eilinė dDžein" bei Sigurni Vyver ir "Svetimas III"?
+Options: buvo su laukiniais gyvūnais, nusiskuto galvas plikai, honorarą paaukojo labdarai
+Expected answer: nusiskuto galvas plikai
+LLM answer: nusiskuto galvas plikai. Correct: True.
+Question: Kuris kompozitorius sukūrė operą "Otelas"?
+Options: V. A. Mocartas, R. Vagneris, Dž. Verdis
+Expected answer: Dž. Verdis
+LLM answer: Dž. Verdis. Correct: True.
+Question: Falabela yra mažiausia arba mažiausias pasaulyje kas?
+Options: arklys, fleita, papūga
+Expected answer: arklys
+LLM answer: arklys. Correct: True.
+Question: Kurioje šalyje prasideda ilgiausias tiltas Europos Sąjungoje?
+Options: Danijoje, Portugalijoje, Prancūzijoje
+Expected answer: Portugalijoje
+LLM answer: Portugalijoje. Correct: True.
+Question: Kuris iš šių Romos imperatorių nebuvo nužudytas?
+Options: Kaligula, Klaudijus, Markas Aurelijus
+Expected answer: Markas Aurelijus
+LLM answer: Markas Aurelijus. Correct: True.
+Question: Kaip vadinti pirmieji Lietuvos pašto ženklai?
+Options: baltukais, kirpčiais, markėmis
+Expected answer: baltukais
+LLM answer: baltukais. Correct: True.
+Correct answers: 8/8
+----------------------------------------
+Playing episode file '../shows/2023-10-28.txt' round '2' with LLM 'gpt-4'
+Question: Personažas
+Expected answer: Forestas Gampas
+Expected answer: 'Forestas Gampas' LLM answer: 'Skruzdėnas (Scrooge McDuck)' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Forestas Gampas' LLM answer: 'Montgomery Burns (iš "Simpsonų")' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Forestas Gampas' LLM answer: 'Forrestas Gumpas' with 3 hints. Correct: False. Score: 2.
+Question: Muzikos instrumentas
+Expected answer: kastanjetės
+Expected answer: 'kastanjetės' LLM answer: 'Būgnai' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'kastanjetės' LLM answer: 'Bongos' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'kastanjetės' LLM answer: 'Kastanjetės' with 3 hints. Correct: True. Score: 2.
+Question: Žinomas žmogus, istorinė asmenybė
+Expected answer: Juozas Lukša
+Expected answer: 'Juozas Lukša' LLM answer: 'Jonas Basanavičius' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Juozas Lukša' LLM answer: 'Adolfas Ramanauskas-Vanagas' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Juozas Lukša' LLM answer: 'Adolfas Ramanauskas-Vanagas' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Juozas Lukša' LLM answer: 'Adolfas Ramanauskas-Vanagas' with 4 hints. Correct: False. Score: 0.
+Question: Upė
+Expected answer: Indas
+Expected answer: 'Indas' LLM answer: 'Nilas' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Indas' LLM answer: 'Indas' with 2 hints. Correct: True. Score: 3.
+Question: Filmas
+Expected answer: "Krikštatėvis"
+Expected answer: '"Krikštatėvis"' LLM answer: '"Krikštynų tėvas"' with 1 hints. Correct: False. Score: 4.
+Question: Išradimas
+Expected answer: balnas
+Expected answer: 'balnas' LLM answer: 'Kompasas' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'balnas' LLM answer: 'Konservai' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'balnas' LLM answer: 'Stiklas' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'balnas' LLM answer: 'Sadelė' with 4 hints. Correct: False. Score: 0.
+Question: Augalas
+Expected answer: kopūstas
+Expected answer: 'kopūstas' LLM answer: 'Raudonosios gėlės (angl. "Cabbages and Kings")' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'kopūstas' LLM answer: 'Cukriniai runkeliai' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'kopūstas' LLM answer: 'Cukinijos' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'kopūstas' LLM answer: 'Kopūstai' with 4 hints. Correct: False. Score: 1.
+Episode score: 12
+----------------------------------------
+Playing episode file '../shows/2023-10-28.txt' round '3' with LLM 'gpt-4'
+Question: Tai yra šachmatų rūšis?
+Choices: TAIP, NE
+Query: 'Čaturanga' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 1
+Query: 'Džioko Dell Oka' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 2
+Query: 'Mehenas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 3
+Query: 'Šisima' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 4
+Query: 'Grantas Acedrexas' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 4
+Query: 'Go' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 5
+Query: 'Bankis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 5
+Query: 'Čandrakis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 5
+Query: 'Madžongas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 6
+Query: 'Makrukas' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 6
+Query: 'Senterėjus' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 6
+Query: 'Šogis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 6
+Query: 'Nardai' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 7
+Query: 'Mankala' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 8
+Query: 'Šatrandžas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 9
+Query: 'Sugoruku' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 10
+Query: 'Hiašataras' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 10
+Query: 'Pačisis' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 11
+Query: 'Čaturadžis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 11
+Query: 'Tsoro' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 12
+Question: Ar šis atlikėjas arba atlikėja turi delną Nidos šlovės take?
+Choices: TAIP, NE
+Query: 'Monika Liu' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 12
+Query: 'Rytis Cicinas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 13
+Query: 'Edmunas Kučinskas' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 13
+Query: 'Veronika Povilionienė' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 14
+Query: 'Janina Miščiukaitė' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 14
+Query: 'Simonas Donskovas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 15
+Query: 'Marijonas Mikutavičius' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 16
+Query: 'Andrius Kulikauskas' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 16
+Query: 'Irena Starošaitė' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 16
+Query: 'Kostas Smoriginas' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 16
+Query: 'Kastytis Kerbedis' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 17
+Query: 'Ovidijus Vyšniauskas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 18
+Query: 'Grupė "Hiperbolė"' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 18
+Query: 'Grupė "Studija"' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 18
+Query: 'Andrius Mamontovas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 19
+Query: 'Arina' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 20
+Query: 'Virgis Stakėnas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 21
+Query: 'Egidijus Sipavičius' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 21
+Query: 'Džordana Butkutė' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 21
+Query: 'Stasys Povilaitis' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 22
+Question: Ar šis šalis turi daugiau ar mažiau nei du sausumos kaimynus?
+Choices: daugiau, mažiau
+Query: 'Azeraibžanas' Expected answer: 'daugiau' LLM answer: 'daugiau' Correct: True. Current score: 23
+Query: 'Bangladešas' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 24
+Query: 'Vietnamas' Expected answer: 'daugiau' LLM answer: 'daugiau' Correct: True. Current score: 25
+Query: 'Butanas' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 26
+Query: 'Fidžis' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 27
+Query: 'Turkmėnistanas' Expected answer: 'daugiau' LLM answer: 'daugiau' Correct: True. Current score: 28
+Query: 'Moldova' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 29
+Query: 'Mianmaras' Expected answer: 'daugiau' LLM answer: 'daugiau' Correct: True. Current score: 30
+Query: 'Švedija' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 31
+Query: 'Kataras' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 32
+Query: 'Haitis' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 33
+Query: 'Norvegija' Expected answer: 'daugiau' LLM answer: 'mažiau' Correct: False. Current score: 33
+Query: 'Šiaurės Korėja' Expected answer: 'daugiau' LLM answer: 'mažiau' Correct: False. Current score: 33
+Query: 'Gambija' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 34
+Query: 'Indonezija' Expected answer: 'daugiau' LLM answer: 'mažiau' Correct: False. Current score: 34
+Query: 'Pakistanas' Expected answer: 'daugiau' LLM answer: 'daugiau' Correct: True. Current score: 35
+Query: 'Latvija' Expected answer: 'daugiau' LLM answer: 'daugiau' Correct: True. Current score: 36
+Query: 'Kosta Rika' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 37
+Query: 'Graikija' Expected answer: 'daugiau' LLM answer: 'daugiau' Correct: True. Current score: 38
+Query: 'Tunisas' Expected answer: 'mažiau' LLM answer: 'mažiau' Correct: True. Current score: 39
+----------------------------------------
+Playing episode file '../shows/2023-10-28.txt' round '4' with LLM 'gpt-4'
+Question: Iš bedugnės sinonimo išbraukiame senovės egiptiečių dievą ir gauname šalia Afrikos esančios valstybės sostinę. Kokia tai sostinė?
+Expected answer: 'Praja' LLM answer: Kairo. Correct: False.
+Question: Vatikane atidengus Mikelandželo "Pietą" jis nugirdo susirinkusius žmones kalbantis, kad tai yra kito skulptoriaus darbas. Tada Mikelandželas padarė tai, ko vėliau gailėjosi. Ką jis padarė?
+Expected answer: 'iškaldino savo vardą ir pavardę' LLM answer: Mikelandželas įkalė savo vardą į skulptūrą.. Correct: True.
+Question: Sprendžiant pagal pavadinimą, aštuntajame pagal dydį Lietuvoje turėtų gyventi jos, tačiau gyvena kuojos ir lydekos, ešeriai ir karosai, karšiai ir taip toliau. Kas yra jos, kurios turėtų gyventi?
+Expected answer: 'bitės' LLM answer: Žuvys (kalbama apie Žuvintą, kuris yra aštuntas pagal dydį Lietuvos ežeras).. Correct: False.
+Question: Jis buvo žinomas keliais vardais: Damastas, Polipemonas, ar Prokoptas. Kokiu vardu šis kalvis iš atikos žinomas geriausiai?
+Expected answer: 'Prokrustas' LLM answer: Hefestas. Correct: False.
+Question: XX a. aštuntojo-devintojo dešimtmečio sandūroje į kino ekranus išėjo keli filmai apie boksą. Kokio meninio triuko, norėdamas išskirti savo 1980 m. šedevrą "Įsiutęs bulius" ėmėsi režisierius Martinas Skorsezė?
+Expected answer: 'pastatė nespalvotą filmą' LLM answer: Martinas Skorsezė filmą "Įsiutęs bulius" nusprendė nufilmuoti juodai baltomis spalvomis, norėdamas suteikti filmui unikalumo ir išskirtinumo.. Correct: True.
+Episode score: 2
