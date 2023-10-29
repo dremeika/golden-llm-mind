@@ -23,7 +23,7 @@ Klausimas: {question}
 Atsakymas: """)
 
 
-class VertexAIPlayer(Player):
+class VertexAITextPlayer(Player):
 
     def __init__(self) -> None:
         self.llm = VertexAI(model_name='text-bison', temperature=0)

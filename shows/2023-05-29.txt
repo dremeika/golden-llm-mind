@@ -59,12 +59,6 @@ K: Gyvūnai
 4) Paprastoji angis
 A: gyvatė
 
-K: Žinomas žmogus
-1) Jo pavardėje yra Lietuvos valstybės simbolis
-2) Sportininkas
-
-A: Kazys Maksvytis
-
 K: Objektas
 1) Tai ketvirtas pagal plotą UNESCO pasaulio paveldo Objektas
 2) Jis nėra vientisas
@@ -85,18 +79,6 @@ K: Indas
 3) Minimas posakyje apie liaudies masių vedlį.
 4) Jame rauginame kopūstus, brandiname vyną...
 A: Statinė
-
-K: Įstaiga
-1) Daugelyje šalių prie įėjimo į ją yra trys aukso rutuliai iš Medičių šeimos herbo.
-2) Lietuvoje pirmoji tokia įstaiga atsirado XIX a. pabaigoje.
-3) Jos pavadinimas kilęs iš Šiaurės Italijos regiono.
-A: Lombardas
-
-K: Valstybė
-1) Ši valstybė yra viena iš trijų pasaulyje.
-2) Europoje
-3) Net trys jos vadovai buvo paskelbti "Time" metų žmogumi.
-A: Vatikanas
 
 III turas
 
@@ -145,26 +127,26 @@ K: Ar šis Lietuvos politikas yra kandidatavęs į prezidento postą? [TAIP, NE]
 20) Bronislovas Lubys - NE
 
 K: Ar deivė yra graikų mitologijos ar romėnų? [graikų, romėnų]
-Hestija - graikų
-Minerva - romėnų
-Parkos - romėnų
-Hera - graikų
-Junona - romėnų
-Demetra - graikų
-Fortūna - romėnų
-Artemidė - graikų
-Prozerpina - romėnų
-Afroditė - graikų
-Luna - romėnų
-Vesta - romėnų
-Atėnė - graikų
-Cerera - romėnų
-Moiros - graikų
-Tichė - graikų
-Diana - romėnų
-Persefonė - graikų
-Venera - romėnų
-Selenė - graikų
+1) Hestija - graikų
+2) Minerva - romėnų
+3) Parkos - romėnų
+4) Hera - graikų
+5) Junona - romėnų
+6) Demetra - graikų
+7) Fortūna - romėnų
+8) Artemidė - graikų
+9) Prozerpina - romėnų
+10) Afroditė - graikų
+11) Luna - romėnų
+12) Vesta - romėnų
+13) Atėnė - graikų
+14) Cerera - romėnų
+15) Moiros - graikų
+16) Tichė - graikų
+17) Diana - romėnų
+18) Persefonė - graikų
+19) Venera - romėnų
+20) Selenė - graikų
 
 IV turas
 

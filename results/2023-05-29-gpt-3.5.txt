@@ -1,0 +1,145 @@
+Playing episode file '../shows/2023-05-29.txt' round '1' with LLM 'gpt-3.5'
+Question: Kuris iš šių žodžių reiškia meninės kūrybos būdą?
+Options: Akupiktūra, Akupresūra, Akupunktūra
+Expected answer: Akupiktūra
+LLM answer: Akupunktūra. Correct: False.
+Question: Kuri valstybė pati pirmoji išrinko dainą 2023 m. "Eurovizijos" dainų konkursui?
+Options: Albanija, Izraelis, Ukraina
+Expected answer: Ukraina
+LLM answer: Izraelis. Correct: False.
+Question: Kuriame filme aktorius Alas Pačinas vaidina gangsterį Tonį Montaną?
+Options: "Kazino", "Krikštatėvis", "Žmogus su randu"
+Expected answer: "Žmogus su randu"
+LLM answer: "Krikštatėvis". Correct: False.
+Question: Kuris vaisius laikomas Indijos nacionaliniu vaisiumi?
+Options: Avokadas, Mangas, Papaja
+Expected answer: Mangas
+LLM answer: Mangas. Correct: True.
+Question: Kuris iš šių asmenų nebuvo pavaizduotas ant Prancūzijos Frankų banknotų?
+Options: Klodas Debiusi, Gustavas Eifelis, Žiulis Vernas
+Expected answer: Žiulis Vernas
+LLM answer: Gustavas Eifelis. Correct: False.
+Question: Kurios dabartinės valstybės teritorijoje XVII-XIX a. gyvavo Dahomėjos karalystė?
+Options: Benino, Malio, Kamerūno
+Expected answer: Benino
+LLM answer: Atsakymas: Benino. Correct: True.
+Question: Kuriame iš šių mokslų netaikoma dispersija?
+Options: chemijoje, geografijoje, statistikoje
+Expected answer: geografijoje
+LLM answer: Atsakymas: Geografijoje. Correct: True.
+Question: Kas yra keltų prieš du tūkstantmečius ir mūšyje naudotas karniksas?
+Options: gentinė vėliava, karo vežimas, muzikos instrumentas
+Expected answer: muzikos instrumentas
+LLM answer: Atsakymas: gentinė vėliava. Correct: False.
+Correct answers: 3/8
+----------------------------------------
+Playing episode file '../shows/2023-05-29.txt' round '2' with LLM 'gpt-3.5'
+Question: Gyvūnai
+Expected answer: gyvatė
+Expected answer: 'gyvatė' LLM answer: 'Ožka' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'gyvatė' LLM answer: 'Gyvūnas, kuris gyvena tam tikrame kelyje kalnuose ir yra žinomas kaip Uroboras.' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'gyvatė' LLM answer: 'Atsakymas: Užuominos rodo, kad kalnuose yra tam tikras kelias, o taip pat paminėti gyvūnai - Uroboras ir Džingadžkukas. Taigi, atsakymas gali būti "kalnų gyvatė".' with 3 hints. Correct: False. Score: 2.
+Question: Objektas
+Expected answer: Didysis barjerinis rifas
+Expected answer: 'Didysis barjerinis rifas' LLM answer: 'Machu Pikču' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Didysis barjerinis rifas' LLM answer: 'Tai yra Machu Picchu, Peru.' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Didysis barjerinis rifas' LLM answer: 'Manau, kad atsakymas yra Machu Picchu. Tai yra ketvirtas pagal plotą UNESCO pasaulio paveldo objektas, jis nėra vientisas ir yra matomas iš kosmoso.' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Didysis barjerinis rifas' LLM answer: 'Great Barrier Reef' with 4 hints. Correct: False. Score: 1.
+Question: Vardas
+Expected answer: Tomas
+Expected answer: 'Tomas' LLM answer: 'Mano atsakymas yra, kad populiariausias vardas Lietuvoje, suteiktas 1367 berniukams 1985 m., yra Jonas. Pastaraisiais metais šis vardas tapo mažiau populiarus, suteikiamas mažiau nei 100 kartų per metus.' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Tomas' LLM answer: 'Tavo užduotis yra pateikti atsakymą pasinaudojant užuominomis. Atsakymas yra vardas, kuris buvo populiariausias Lietuvoje 1985 m., suteiktas 1367 berniukams, o pastaraisiais metais suteikamas iki 100 kartų per metus. Šis vardas taip pat reiškia dvynį Aramėjų kalba.' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Tomas' LLM answer: 'Manau, atsakymas yra Jonas.' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Tomas' LLM answer: 'Atsakymas yra Tomas.' with 4 hints. Correct: False. Score: 1.
+Question: Indas
+Expected answer: Statinė
+Expected answer: 'Statinė' LLM answer: 'Indas' with 1 hints. Correct: False. Score: 0.
+Expected answer: 'Statinė' LLM answer: 'Indas gali būti vadinamas ir senovinis ploto matas, taip pat tai yra aukštojo pilotažo figūra.' with 2 hints. Correct: False. Score: 0.
+Expected answer: 'Statinė' LLM answer: 'Indas gali būti vadinamas ir senoviniu ploto matu, taip pat tai yra aukštojo pilotažo figūra. Be to, posakyje yra minima užuominą apie liaudies masių vedlį. Atsakymas gali būti "Vincas Kudirka", nes jis buvo žinomas kaip indas, rašytojas ir vienas iš svarbiausių Lietuvos tautinio atgimimo veikėjų.' with 3 hints. Correct: False. Score: 0.
+Expected answer: 'Statinė' LLM answer: 'Indas' with 4 hints. Correct: False. Score: 0.
+Episode score: 4
+----------------------------------------
+Playing episode file '../shows/2023-05-29.txt' round '3' with LLM 'gpt-3.5'
+Question: Ar šiuo metu tas žmogus yra gavęs Sidabrinę gervę už pagrindinį vaidmenį?
+Choices: TAIP, NE
+Query: 'Inga Jankauskaitė' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 1
+Query: 'Marius Repšys' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 1
+Query: 'Ramūnas Cicėnas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 2
+Query: 'Audrius Bružas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 3
+Query: 'Giedrius Savickas' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 3
+Query: 'Dainius Kazlauskas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 4
+Query: 'Gabija Jaraminaitė' Expected answer: 'TAIP' LLM answer: 'Aš negaliu atsakyti į šį klausimą, nes aš esu dirbtinė intelektinė sistema ir neturiu informacijos apie tai, ar Gabija Jaraminaitė yra gavusi Sidabinę gervę už pagrindinį vaidmenį.' Correct: False. Current score: 4
+Query: 'Juozas Budraitis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 4
+Query: 'Jurgita Jurkutė' Expected answer: 'NE' LLM answer: 'Aš negaliu atsakyti į šį klausimą, nes neturiu informacijos apie tai, ar Jurgita Jurkutė yra gavusi Sidabinę gervę už pagrindinį vaidmenį šiuo metu.' Correct: False. Current score: 4
+Query: 'Vytautas Kaniušonis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 4
+Query: 'Vytautas Rumšas jaunesnysis' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 5
+Query: 'Arūnas Sakalaukas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 6
+Query: 'Janina Lapinskaitė' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 6
+Query: 'Aušra Štukytė' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 7
+Query: 'Andrius Bialobžeskis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 7
+Query: 'Ramūnas Rudokas' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 7
+Query: 'Asta Baukutė' Expected answer: 'NE' LLM answer: 'Aš negaliu atsakyti į šį klausimą, nes neturiu informacijos apie tai, ar žmogus yra gavęs Sidabrinę gervę už pagrindinį vaidmenį.' Correct: False. Current score: 7
+Query: 'Marius Jampolskis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 7
+Query: 'Dainius Gavenonis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 7
+Query: 'Martynas Nedzinskas' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 8
+Question: Ar šis Lietuvos politikas yra kandidatavęs į prezidento postą?
+Choices: TAIP, NE
+Query: 'Gediminas Vagnorius' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 9
+Query: 'Arvydas Juozaitis' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 10
+Query: 'Mindaugas Puidokas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 11
+Query: 'Arūnas Valinskas' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 11
+Query: 'Zigmantas Balčytis' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 12
+Query: 'Vilija Blinkevičiūtė' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 12
+Query: 'Andrius Kubilius' Expected answer: 'NE' LLM answer: 'NE' Correct: True. Current score: 13
+Query: 'Vytautas Šustauskas' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 13
+Query: 'Vytautas Landsbergis' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 14
+Query: 'Vytenis Andriukaitis' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 14
+Query: 'Petras Auštrevičius' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 14
+Query: 'Viktoras Uspaskich' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 14
+Query: 'Irena Degutienė' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 14
+Query: 'Artūras Zuokas' Expected answer: 'TAIP' LLM answer: 'TAIP' Correct: True. Current score: 15
+Query: 'Remigijus Šimašius' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 15
+Query: 'Gediminas Kirkilas' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 15
+Query: 'Loreta Graužinienė' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 15
+Query: 'Ramūnas Karbauskis' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 15
+Query: 'Česlovas Juršėnas' Expected answer: 'TAIP' LLM answer: 'NE' Correct: False. Current score: 15
+Query: 'Bronislovas Lubys' Expected answer: 'NE' LLM answer: 'TAIP' Correct: False. Current score: 15
+Question: Ar deivė yra graikų mitologijos ar romėnų?
+Choices: graikų, romėnų
+Query: 'Hestija' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 16
+Query: 'Minerva' Expected answer: 'romėnų' LLM answer: 'graikų' Correct: False. Current score: 16
+Query: 'Parkos' Expected answer: 'romėnų' LLM answer: 'graikų' Correct: False. Current score: 16
+Query: 'Hera' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 17
+Query: 'Junona' Expected answer: 'romėnų' LLM answer: 'romėnų' Correct: True. Current score: 18
+Query: 'Demetra' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 19
+Query: 'Fortūna' Expected answer: 'romėnų' LLM answer: 'romėnų' Correct: True. Current score: 20
+Query: 'Artemidė' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 21
+Query: 'Prozerpina' Expected answer: 'romėnų' LLM answer: 'romėnų' Correct: True. Current score: 22
+Query: 'Afroditė' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 23
+Query: 'Luna' Expected answer: 'romėnų' LLM answer: 'graikų' Correct: False. Current score: 23
+Query: 'Vesta' Expected answer: 'romėnų' LLM answer: 'romėnų' Correct: True. Current score: 24
+Query: 'Atėnė' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 25
+Query: 'Cerera' Expected answer: 'romėnų' LLM answer: 'graikų' Correct: False. Current score: 25
+Query: 'Moiros' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 26
+Query: 'Tichė' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 27
+Query: 'Diana' Expected answer: 'romėnų' LLM answer: 'graikų' Correct: False. Current score: 27
+Query: 'Persefonė' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 28
+Query: 'Venera' Expected answer: 'romėnų' LLM answer: 'romėnų' Correct: True. Current score: 29
+Query: 'Selenė' Expected answer: 'graikų' LLM answer: 'graikų' Correct: True. Current score: 30
+----------------------------------------
+Playing episode file '../shows/2023-05-29.txt' round '4' with LLM 'gpt-3.5'
+Question: Kurio gyvūno, minimo dainelėje "du gaideliai" vardu, yra pavaidintas žvaigždynas
+Expected answer: 'Musės' LLM answer: Žvaigždynas yra pavaidintas Gaidukas.. Correct: False.
+Question: Kur Lietuvoje 21m aukščio mamos adresas yra savo sūnaus gatvėje 21?
+Expected answer: 'Palangoje (Birutės kalnas. Vytauto 21)' LLM answer: Toks adresas Lietuvoje neegzistuoja.. Correct: False.
+Question: Pagalvokite logiškai ir atsakykite: kokiame mūšyje mirė visi žuvę IX a. Europos monarchai?
+Expected answer: 'Paskutiniame' LLM answer: Aš, kaip protmūšio dalyvis, negaliu teisingai atsakyti į šį klausimą, nes IX a. Europos monarchai nežinomi kaip visi žuvę mūšyje.. Correct: False.
+Question: Filmo "Haris Poteris ir ugnies taurė" pradžioje rodomos niūrios kapinės su daug antkapių. Norėdama dėl šios scenos išvengti tam tikrų teisinių bylinėjimųsi, kūrybine filmo grupė rado gudrų sprendimą. Ką jie padarė?
+Expected answer: 'Ant antkapių buvo užrašyti kūrybinės grupės narių vardai ir pavardės.' LLM answer: Kūrybinė filmo grupė pasirinko filmuoti šią sceną tikroviškai, tačiau naudojosi fiktyviais antkapiais, kurie nebuvo susiję su realiais asmenimis ar vietomis. Taip jie išvengė teisinių problemų, susijusių su autorių teisėmis ar privatumo pažeidimais.. Correct: False.
+Question: Šiuos augalus, kaip rafinuotą patiekalą, 1616 m. tiekdavo ant Prancūzijos karaliaus stalo ir vadindavo triufeliais. Kokie tai augalai?
+Expected answer: 'Bulvės' LLM answer: Triufeliai yra grybai, konkrečiau, juodieji triufeliai (Tuber melanosporum) ir baltieji triufeliai (Tuber magnatum).. Correct: False.
+Question: Vienoje "Aukščiausios pavaros" laidoje varžėsi galingas "Porsche 911" ir pats paprasčiausias klasikinis "Volkswagen Beetle", kuris greičiau įveiks 1 mylios atstumą. Kodėl "vabalas", kuris laimėjo viena sekunde, buvo be vairuotojo?
+Expected answer: 'Jis krito iš 1 mylios aukščio.' LLM answer: "Vabalas", kuris laimėjo viena sekunde, buvo be vairuotojo, nes tai buvo tik simuliacija arba eksperimentas, kurio metu buvo tikrinama automobilių greičio ir galios skirtumai. Vabalas buvo naudojamas kaip kontrolinė grupė, kad būtų galima palyginti "Porsche 911" ir "Volkswagen Beetle" greitį.. Correct: False.
+Question: Internetas atsirado tais pačiais metais, kai žmonės išsilaipino Mėnulyje? Taip ar Ne?
+Expected answer: 'Taip' LLM answer: Ne, internetas atsirado daug vėliau nei žmonės išsilaipino Mėnulyje.. Correct: False.
+Episode score: 0

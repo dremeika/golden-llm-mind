@@ -1,7 +1,7 @@
 import argparse
 
 from episode_parser import parse_episode
-from google_players import VertexAIPlayer
+from vertexai_players import VertexAITextPlayer
 from model import Player
 from openai_players import GPTPlayer
 
@@ -21,7 +21,7 @@ def resolve_player(llm: str) -> Player:
     elif llm == 'gpt-4':
         return GPTPlayer(model_name='gpt-4')
     elif llm == 'palm':
-        return VertexAIPlayer()
+        return VertexAITextPlayer()
     raise ValueError(f"Unknown LLM '{llm}'")
 
 
