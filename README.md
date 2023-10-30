@@ -43,7 +43,7 @@ NOTE:
 
 ## Transcribing a Show
 
-TODO
+Detailed instructions on how to download and transcribe a show can be found in [Download & Transcribe](transcription/README.md).
 
 ## Golden Semiconductors Mind
 
