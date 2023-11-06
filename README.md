@@ -5,7 +5,7 @@ show ["Auksinis Protas"](https://www.lrt.lt/mediateka/video/auksinis-protas)
 
 ## LLM Competition Results
 
-LLMs were competing in show aired on [2023-09-22](shows/2023-09-22.txt), [2023-05-29](shows/2023-05-29.txt).
+LLMs were competing in show aired on [2023-09-22](shows/2023-09-22.txt), [2023-05-29](shows/2023-05-29.txt), [2023-10-28](shows/2023-10-28.txt).
 
 LLMs were scored a bit differently than human players:
 
