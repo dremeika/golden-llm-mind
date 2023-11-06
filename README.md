@@ -29,6 +29,14 @@ LLMs were scored a bit differently than human players:
 | [GPT 3.5](results/2023-10-28-gpt-3.5.txt)   | 2023-10-28 | 4       | 5       | 36      | 1       | 46    |
 | [PaLM 2](results/2023-10-28-bison-text.txt) | 2023-10-28 | 5       | 24      | 36      | 2       | 67    |
 
+**Total**
+
+| Model    | Score |
+|----------|-------|
+| GPT 4    | 186   |
+| PaLM 2   | 186   |
+| GPT 3.5  | 140   |
+
 ## Playing the Game
 
 ```commandline
