@@ -137,7 +137,6 @@ Query: 'Latimerija' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True
 Query: 'Tuatara' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 42
 Query: 'Tarpanas' Expected answer: 'Išnykęs' LLM answer: 'Išnykęs' Correct: True. Current score: 43
 Query: 'Kalnų gorila' Expected answer: 'Gyvena' LLM answer: 'Gyvena' Correct: True. Current score: 44
-Episode score: 14
 ----------------------------------------
 Playing episode file '../shows/2023-09-22.txt' round '4' with LLM 'gpt-3.5'
 Question: Kokios kitos salos pavadinimą galima sudaryti iš žodžio Kipras raidžių?
